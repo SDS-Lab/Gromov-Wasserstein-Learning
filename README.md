@@ -1,5 +1,11 @@
-# S-GWL
-This package includes the implementation of my NeurIPS2019 work **"Scalable Gromov-Wasserstein Learning for Graph Partitioning and Matching"** [https://arxiv.org/pdf/1905.07645.pdf]
+# Gromov-Wasserstein Learning
+This package includes the implementation of the Gromov-Wasserstein Learning (GWL) framework for graph matching, partitioning, and node embedding.
+The references are listed below. Feel free to cite them if this package is useful in your research.
+
+Xu, Hongteng, Dixin Luo, Hongyuan Zha, and Lawrence Carin. **"Gromov-wasserstein learning for graph matching and node embedding."** In International conference on machine learning (ICML), pp. 6932-6941. PMLR, 2019. [http://proceedings.mlr.press/v97/xu19b/xu19b.pdf]
+
+Xu, Hongteng, Dixin Luo, and Lawrence Carin. **"Scalable Gromov-Wasserstein learning for graph partitioning and matching."** Advances in neural information processing systems (NeurIPS) 32 (2019). [https://arxiv.org/pdf/1905.07645.pdf]
+
 
 The examples include:
 * Partition a single graph (i.e., community detection)
@@ -34,10 +40,20 @@ We download these two packages from https://ttic.uchicago.edu/~hashemifar/.
 Please read the "readme" file in their folders to run these two methods.
 
 # Citations
-@article{xu2019scalable,
-  title={Scalable Gromov-Wasserstein Learning for Graph Partitioning and Matching},
+@inproceedings{xu2019gromov,
+  title={Gromov-wasserstein learning for graph matching and node embedding},
+  author={Xu, Hongteng and Luo, Dixin and Zha, Hongyuan and Duke, Lawrence Carin},
+  booktitle={International conference on machine learning},
+  pages={6932--6941},
+  year={2019},
+  organization={PMLR}
+}
+
+@inproceedings{xu2019scalable,
+  title={Scalable gromov-wasserstein learning for graph partitioning and matching},
   author={Xu, Hongteng and Luo, Dixin and Carin, Lawrence},
-  journal={arXiv preprint arXiv:1905.07645},
+  booktitle={Proceedings of the 33rd International Conference on Neural Information Processing Systems},
+  pages={3052--3062},
   year={2019}
 }
 
